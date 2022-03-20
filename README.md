@@ -1,8 +1,6 @@
 # Práctica CSS
 
-En esta semana vimos como meterle estilos a nuestras páginas y hacer que tomen personalidad completa.
-
-Para esta práctica necesito que clonen la página que está en el siguiente enlace [Link del diseño](./landingVacunaci%C3%B3n.png)
+Para esta práctica se clonará la página que está en el siguiente enlace [Link del diseño](./landingVacunaci%C3%B3n.png)
 
 La práctica consiste en lo siguiente:
 
