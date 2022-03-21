@@ -15,55 +15,57 @@
 <body>
   <header>
     <nav>
+      <a class="nav-title" href="#">Vaccination</a>
       <ul>
-        <li><a href="#">Vaccination</a></li>
         <li><a href="#">Database</a></li>
         <li><a href="#">Education</a></li>
         <li><a href="#">News</a></li>
         <li><a href="#">Regulation</a></li>
-        <li><a href="#">Hoax Buster</a></li>
+        <li><a class="nav-btn" href="#">Hoax Buster</a></li>
       </ul>
     </nav>
-    <div class="header-container">
-      <div class="text col-6">
-        <h1>Fight Virus<br>Width Vaccines</h1>
-        <p>Lets stop this pandemic by killing the virus<br>with a vaccine, don't let yourself and your<br>family get infected</p>
-        <div class="icons">
-          <p><span class="material-icons">verified_user</span>Selected Vaccines</p>
-          <p><span class="material-icons-outlined">star</span>Best protection</p>
-        </div>
-      </div>
-      <div class="schedule">
-        <p><span class="material-icons">watch_later</span>Schedule your vaccinations</p>
-        <div class="d-flex">
-          <div>
-            <div class="d-flex">
-              <p><span class="material-icons">location_on</span>Location</p>
-              <p><span class="material-icons">date_range</span>Date</p>
-              <p><span class="material-icons">drive_file_rename_outline</span>Vaccine Type</p>
-            </div>
-            <div class="d-flex">
-              <p>Jakarta Utara</p>
-              <p>08 July 2021</p>
-              <p>Moderna</p>
-            </div>
+    <div class="header-container general-container">
+      <div class="col-6">
+        <div class="header-container-info col-6">
+          <h1>Fight Virus<br>Width Vaccines</h1>
+          <p>Lets stop this pandemic by killing the virus<br>with a vaccine, don't let yourself and your<br>family get infected</p>
+          <div class="icons">
+            <p><span class="material-icons">verified_user</span>Selected Vaccines</p>
+            <p><span class="material-icons-outlined">star</span>Best protection</p>
           </div>
-          <button>Submit</button>
+        </div>
+        <div class="header-container-schedule">
+          <p><span class="material-icons">watch_later</span>Schedule your vaccinations</p>
         </div>
       </div>
       <div class="background col-6"></div>
+      <div class="float-schedule d-flex">
+        <div>
+          <div class="schedule-title d-flex">
+            <p><span class="material-icons">location_on</span>Location</p>
+            <p><span class="material-icons">date_range</span>Date</p>
+            <p><span class="material-icons">drive_file_rename_outline</span>Vaccine Type</p>
+          </div>
+          <div class="schedule-info d-flex">
+            <p>Jakarta Utara</p>
+            <p>08 July 2021</p>
+            <p>Moderna</p>
+          </div>
+        </div>
+        <button>Submit</button>
+      </div>
     </div>
   </header>
-  <section class="vaccine">
-    <img src="assets/vaccines.png" alt="vaccines">
-    <div>
+  <img class="vac-img" src="assets/vaccines.png" alt="vaccines">
+  <section class="vaccine general-container">
+    <div class="vaccine-title">
       <h2>Why should I vaccine?</h2>
       <p>In order to avoid any doubts about getting the COVID-19<br>vaccine,identify the following 4 benefits of COVID-19<br>vaccination :</p>
     </div>
-    <div>
+    <div class="vaccine-container">
       <div class="widget">
         <span class="material-icons-outlined">density_large</span>
-        <p>Minimize the spread of viruses</p>
+        <p>Minimize the spread<br> of viruses</p>
         <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
       </div>
       <div class="widget">
@@ -83,19 +85,19 @@
       </div>
     </div>
   </section>
-  <section class="preparations">
-    <img src="assets/womaan.png" alt="woman">
-    <div>
-      <div>
+  <section class="preparations general-container">
+    <div class="col-6"><img src="assets/womaan.png" alt="woman"></div>
+    <div class="col-6">
+      <div class="preparations-title">
         <h2>Preparations Before Vaccine</h2>
         <p>The success of vaccines is strongly influenced by the<br>strength of the body's immune system. Therefore, there are<br>several things that can be tried to make the COVID-19<br>vaccine work :</p>
       </div>
       <div>
-        <div class="accordion" id="accordionExample">
+        <div class="accordion preparations-info" id="accordionExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <span class="material-icons">gpp_bad</span>Avoid alcoholic beverages
+            <h2 class="accordion-header title-info" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background: #fff; font-weight: 500; color: rgba(48, 76, 138, 0.966);">
+                <span class="material-icons" style="margin-right: 15px">gpp_bad</span>Avoid alcoholic beverages
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -106,8 +108,8 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <span class="material-icons">disabled_by_default</span>Avoid stress
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"  style="background: #fff; font-weight: 500; color: rgba(48, 76, 138, 0.966);">
+                <span class="material-icons" style="margin-right: 15px">disabled_by_default</span>Avoid stress
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -118,8 +120,8 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <span class="material-icons">assessment</span>Eat healthy food
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background: #fff; font-weight: 500; color: rgba(48, 76, 138, 0.966);">
+                <span class="material-icons" style="margin-right: 15px">assessment</span>Eat healthy food
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -130,8 +132,8 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                <span class="material-icons">check_box</span>Get enough sleep
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background: #fff; font-weight: 500; color: rgba(48, 76, 138, 0.966);">
+                <span class="material-icons" style="margin-right: 15px">check_box</span>Get enough sleep
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -142,8 +144,8 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                <span class="material-icons">favorite</span>Exercise or physical activity
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="background: #fff; font-weight: 500; color: rgba(48, 76, 138, 0.966);">
+                <span class="material-icons" style="margin-right: 15px;">favorite</span>Exercise or physical activity
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -156,10 +158,10 @@
       </div>
     </div>
   </section>
-  <section class="contact d-flex">
-    <div>
+  <section class="contact general-container d-flex">
+    <div class="col-6">
       <h2>Emergency Contact</h2>
-      <p>Contact one of the contacts below if you or your family feel<br>unwell and have similar symptoms such as Covid-19, make<br>sure you also take care of yourself before reporting to us :</p>
+      <p class="contact-info">Contact one of the contacts below if you or your family feel<br>unwell and have similar symptoms such as Covid-19, make<br>sure you also take care of yourself before reporting to us :</p>
       <div class="contact-container d-flex">
         <div class="contact-widget">
           <div class="d-flex">
@@ -205,46 +207,40 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="col-6">
       <img src="assets/man.png" alt="">
     </div>
   </section>
-  <footer>
-    <div>
-      <div>
+  <footer class="general-container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-title">
         <p>Vaccination</p>
         <p>Our goal is to help the<br>world free from the<br>ongoing pandemic</p>
       </div>
-      <div>
+      <div class="footer-info d-flex">
         <div class="footer-widget">
           <p>About</p>
-          <ul>
-            <li>About Us</li>
-            <li>Features</li>
-            <li>News & Blog</li>
-          </ul>
+          <p>About Us</p>
+          <p>Features</p>
+          <p>News & Blog</p>
         </div>
         <div class="footer-widget">
           <p>Company</p>
-          <ul>
-            <li>How We Work?</li>
-            <li>Capital</li>
-            <li>Security</li>
-          </ul>
+          <p>How We Work?</p>
+          <p>Capital</p>
+          <p>Security</p>
         </div>
         <div class="footer-widget">
           <p>Support</p>
-          <ul>
-            <li>FAQs</li>
-            <li>Support Center</li>
-            <li>Contact Us</li>
-          </ul>
+          <p>FAQs</p>
+          <p>Support Center</p>
+          <p>Contact Us</p>
         </div>
       </div>
     </div>
-    <div>
-      <p>Terms & Agreements</p>
-      <p>Privacy Policy</p>
+    <div class="terms d-flex justify-content-between">
+      <p>2021 Vacinnation. All rights reserved</p>
+      <p>Terms & Agreements Privacy Policy</p>
     </div>
   </footer>
   
