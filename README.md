@@ -1,6 +1,6 @@
 # Práctica CSS
 
-Para esta práctica se clonará la página que está en el siguiente enlace [Link del diseño](./landingVacunaci%C3%B3n.png)
+Para esta práctica se clonará la página que está en el siguiente enlace [Link del diseño](https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/03%20-%20CSS/practica/landingVacunaci%C3%B3n.png)
 
 La práctica consiste en lo siguiente:
 
